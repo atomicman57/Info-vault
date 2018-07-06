@@ -1,0 +1,42 @@
+	<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h3 class="section-title">Sign Up</h3>
+						<%# <p>
+						Lorem Ipsum is inting and typesetting in simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p> %>
+						
+						<form class="form-light mt-20" action="/register" method="POST" role="form">
+                        <div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>First Name</label>
+										<input type="text" name="user[first_name]" class="form-control" placeholder="First Name">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Last Name</label>
+										<input type="text"  name="user[last_name]" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>Email</label>
+								<input type="email"  name="user[email]" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" name="user[password]" class="form-control" placeholder="Password">
+							</div>
+                            <div class="form-group">
+								<label>Interest</label>
+								<select name="user[interest]" class="form-control">
+                                <option> Business </option>
+                                </select>
+							</div>
+							<button type="submit" class="btn btn-two">Sign Up</button><p><br/></p>
+						</form>
+					</div>
+				</div>
+			</div>
